@@ -51,47 +51,45 @@ button{
     width: 50%;
 }
 #two{
+    height: 72%;
+    width: 29%;
     position: absolute;
-    width: 32%;
-    height: 69%;
-    border-radius: 50%;
-    left: 72%;
+    left: 71%;
     top: -17%;
-    background-color: #C4C4C4;
 }
 #narnute{
     height: 65%;
     width: 55%;
     position: absolute;
-    left: 10%;
-    top: 25%;
+    left: 16%;
+    top: 21%;
 }
 #leaf{
-    height: 51%;
+    height: 49%;
     width: 24%;
     position: absolute;
-    left: 64%;
-    top: 43%;
+    left: 76%;
+    top: 51%;
 }
 #basket{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 77%;
+    left: 89%;
     top: 27%;
 }
 #contact{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 67%;
+    left: 79%;
     top: 27%;
 }
 #search{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 57%;
+    left: 69%;
     top: 27%;
 }
 .flex{
