@@ -35,7 +35,7 @@ h1{
 .we{
     margin: 10px;
 }
-button{
+#button{
     padding: 10px;
     background-color: green;
     color: white;
@@ -104,24 +104,148 @@ button{
     left: 0%;
     top: 39%;
 }
+ 
 
-#sub{
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
+@media screen and (max-width:900px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 15px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 3%;
+        width: 4%;
+        position: absolute;
+        left: 5%;
+        top: 1%;
+    }
+    #two{
+        height: 65%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -16%;
+    }
+    #narnute{
+        height: 40%;
+        width: 53%;
+        position: absolute;
+        left: 16%;
+        top: 25%;
+    }
+    #leaf{
+        height: 33%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 27%;
+    }
+    #contact{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 27%;
+    }
+    #search{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 27%;
+    }
+    #ellipse{
+        height: 46%;
+        width: 8%;
+        position: absolute;
+        left: 0%;
+        top: 39%;
+    }
+
+
 }
-input{
-    padding: 10px;
-}
-.green{
-    display: flex;
-    padding: 30px;
-    background-color: green;
-    color: white;
-}
-.green div{
-    padding: 70px;
-}
-p{
-    text-align: center;
+
+@media screen and (max-width:500px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 15px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 5%;
+        width: 5%;
+        position: absolute;
+        left: 5%;
+        top: 4%;
+    }
+    #two{
+        height: 65%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -16%;
+    }
+    #narnute{
+        height: 56%;
+        width: 53%;
+        position: absolute;
+        left: 18%;
+        top: 23%;
+    }
+    #leaf{
+        height: 36%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 27%;
+    }
+    #contact{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 27%;
+    }
+    #search{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 27%;
+    }
+    #ellipse{
+        height: 46%;
+        width: 8%;
+        position: absolute;
+        left: 0%;
+        top: 39%;
+    }
+
+
 }
