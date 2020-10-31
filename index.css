@@ -119,11 +119,11 @@ h1{
        margin-left: 15%;
     }
     #oha{
-        height: 3%;
+        height: 4%;
         width: 4%;
         position: absolute;
         left: 5%;
-        top: 1%;
+        top: 5%;
     }
     #two{
         height: 65%;
@@ -133,11 +133,11 @@ h1{
         top: -16%;
     }
     #narnute{
-        height: 40%;
+        height: 55%;
         width: 53%;
         position: absolute;
         left: 16%;
-        top: 22%;
+        top: 27%;
     }
     #leaf{
         height: 33%;
@@ -147,21 +147,21 @@ h1{
         top: 57%;
     }
     #basket{
-        height: 1%;
+        height: 2%;
         width: 3%;
         position: absolute;
         left: 89%;
         top: 27%;
     }
     #contact{
-        height: 1%;
+        height: 2%;
         width: 3%;
         position: absolute;
         left: 79%;
         top: 27%;
     }
     #search{
-        height: 1%;
+        height: 2%;
         width: 3%;
         position: absolute;
         left: 69%;
@@ -178,7 +178,7 @@ h1{
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:650px) {
     .navbar{
         width: 100%;
         margin-top: 25px;
